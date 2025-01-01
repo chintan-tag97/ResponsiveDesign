@@ -1,0 +1,91 @@
+.hero {
+  background: url('download.jpg') no-repeat center center/cover;
+}
+
+.hero-header{
+  position: absolute;
+    top: 25px;
+    right: 100px;
+    left: 100px;
+    padding: 50px
+}
+.collapse {
+  display: flex;
+  justify-content: right;
+  
+}
+.text {
+
+  
+  height: 70vh;
+ 
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container-text {
+
+  background-color: gray;
+}
+
+.feature1 {
+  background-color:rgba(255, 99, 71, 0.2) ;
+  
+  
+}
+
+.feature2 {
+  background-color:rgba(29, 24, 24, 0.2) ;
+ 
+ 
+}
+.feature3 {
+  background-color: rgba(56, 112, 165, 0.2) ;
+ 
+}
+
+
+.main {
+  background-image: url('services-bg-power.jpg');
+  background-attachment: fixed; 
+  
+  
+}
+
+.feature-section {
+  padding: 60px 0;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  height:135px;
+ 
+}
+
+.feature-box:hover {
+  transform: translateY(-5px);
+  background-color: red;
+}
+
+.feature-icon {
+ 
+  margin-bottom: 15px;
+  color: #f05a24;
+}
+
+.unique-section {
+  margin-top: 30px;
+}
+
+
+
+@media only screen and (max-width: 320px) {
+  .hero-header{
+    top: 8px;
+    right: 9px;
+    left: 9px;
+  }
+}
